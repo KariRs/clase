@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/clase11.css">
+</head>
+
+<body>
+    <!-- <form>
+        Nombres:
+        <br><input type="text" autocomplete="on">
+
+        <br>Apellidos:
+        <br><input type="text"
+        placeholder="Ingrese su  apellido">
+
+        <br><br><input type="password" placeholder="Ingresar contraseña">
+        
+        <br><br><input type="color" name="color">
+    
+        <br><br><input type="radio" name="ecivil" value="soltero"> Soltero
+        <br><br><input type="radio" name="ecivil" value="casado" checked> Casado
+
+        <br>Elija su categoría de película favorita
+        <br><input type="checkbox" name="categorias" id="suspenso"> Suspenso
+        <br><input type="checkbox" name="categorias" id="romance"> Romance
+        <br><input type="checkbox" name="categorias" id="terror"> Terror
+
+        <br><br>Fecha de envío:
+        <br><input type="date" name="fechaenvio" id="">
+    </form> -->
+    <header></header>
+    <nav></nav>
+
+    <section class="formulario-registro">
+        <h4 class="titulo">Formulario de Registro</h4>
+        <form>
+            <input class="controles" type="text" name="nombre" id="" autocomplete="on"
+                placeholder="Ingrese sus nombres">
+
+            <input class="controles" type="text" name="apellidos" id="" autocomplete="on"
+                placeholder="Ingrese sus Apellidos">
+
+            <input class="controles" type="text" autocomplete="on" placeholder="Ingrese su número telefónico">
+
+            <!-- Crear grupo para sexo -->
+            <fieldset class="grupo">
+                <legend>Sexo:
+                </legend>
+                <input type="radio" class="radio" name="sexo" value="femenino"> Femenino
+                <input type="radio" class="radio" name="sexo" value="masculino"> masculino
+                <input type="radio" class="radio" name="sexo" value="nqc"> Prefiero no contestar
+                <fieldset class="grupo">
+                    <input type="date" class="controles">
+                </fieldset>
+                <input type="text" class="controles" name="usuario" id="" placeholder="Ingrese su usuario">
+                <input type="password" class="controles" name="[pass]" id="" placeholder="Ingrese su contraseña">
+
+                <input class="boton" type="submit" value="Enviar">
+                <input class="boton" type="reset" value="Limpiar">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>
